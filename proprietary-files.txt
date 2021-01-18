@@ -1038,8 +1038,6 @@ vendor/lib/libsmemlog.so
 
 # Radio
 global/ons/ons.bin
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-#-app/shutdownlistener/shutdownlistener.apk
 bin/imsqmidaemon
 bin/netmgrd
 bin/qmuxd
@@ -1047,8 +1045,6 @@ bin/radish
 bin/rmt_storage
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
--framework/qcnvitems.jar
--framework/qcrilhook.jar
 lib/libhuawei_secure.so
 lib/lib_oeminfo_interface.so
 lib/liboeminfo.so
@@ -1100,7 +1096,6 @@ vendor/lib64/libthermalioctl.so
 vendor/lib/libthermalclient.so
 
 # Time services
--app/TimeService/TimeService.apk
 bin/time_daemon
 -vendor/lib64/libtime_genoff.so
 -vendor/lib/libtime_genoff.so
